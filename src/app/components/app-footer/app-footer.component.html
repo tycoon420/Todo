@@ -2,15 +2,17 @@
   <div class="row">
     <div class="col">
       <div class="form-group">
-        <input autofocus type="text" placeholder="Something to do today..."
-               (keyup.enter)="onTodoAdd()"
-               [(ngModel)]="todo">
+        <mat-form-field class="form-group">
+          <textarea matInput placeholder="Something to do today..."
+          (keyup.enter)="onTodoAdd()"
+                     [(ngModel)]="todo"></textarea>
+        </mat-form-field>
       </div>
     </div>
 
     <div class="col-auto">
       <div class="form-group">
-        <button class="button button-primary" (click)="onTodoAdd()">
+        <button mat-raised-button color="accent" (click)="onTodoAdd()">
           Add
         </button>
       </div>

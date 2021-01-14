@@ -17,7 +17,9 @@ import {TodoPageComponent} from './pages/todo-page/todo-page.component';
 import {HideCompletedPipe} from './pipes/hide-completed.pipe';
 import {IncompleteFirstPipe} from './pipes/incomplete-first.pipe';
 import {SortPipe} from './pipes/sort.pipe';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,9 @@ import {SortPipe} from './pipes/sort.pipe';
     AppRoutingModule,
     BrowserModule,
     FormsModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

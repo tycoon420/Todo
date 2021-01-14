@@ -62,13 +62,13 @@ hr {
  */
 
 .header {
-  @include contrast(color-neutral(800));
+  @include contrast(color-neutral(600));
 
   padding: 2rem;
 }
 
 .footer {
-  @include contrast(color-neutral(800));
+  @include contrast(color-neutral(100));
 
   padding: 2rem;
 }
