@@ -2,7 +2,7 @@
 
 # Todo list
 
-This is a simple todo list app created with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+This is a simple todo list app created with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
 
 ## Build and run
